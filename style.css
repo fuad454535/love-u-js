@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    
+    font-family:'open sans',sans-serif;
+}
+h2{
+    font-size:30px;
+
+    
+}
+.nam{
+    color:orange;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%;
+    
+}
+
+ .half-width a{
+    text-decoration: none;
+    border:1px solid white;
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+    padding:10px;
+
+
+}
+.half-width a:hover{
+    background-color: aqua;
+}
+.top-banner{
+    background-image: url("../tool/developer-portfolio/top-banner.png");
+   background-repeat: no-repeat;
+}
+section{
+    height:700px;
+}
+.half-width h4{
+font-size:20px;
+}
+.half-width h5{
+    font-size:20px;
+    color:orange;
+}
+.half-width input{
+    background-color: orange;
+    border:1px solid white;
+    border-radius:5px;
+    padding:5px;
+    color:white;
+    font-weight: 200;
+}
+.half-width st{
+    font-size:10px;
+}
+.exp{
+    box-shadow:10px 10px 30px gray;
+    border-radius:5px;
+    height:50%;
+}
+#full-stack{
+    border-left:7px solid;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice:1;
+}
+#baby-web{
+    border-left:7px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice:1;
+}
+footer p{
+    text-align:center;
+}
